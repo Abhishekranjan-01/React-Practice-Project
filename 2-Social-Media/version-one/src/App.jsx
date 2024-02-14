@@ -1,15 +1,14 @@
 import "./App.css";
 import CreatePost from "./components/CreatePost";
 import Header from "./components/Header";
-import Post from "./components/Post";
+import MainSectionContainer from "./components/MainSectionContainer";
 
 function App() {
   return (
-    <>
+    <div className="relative">
       <Header />
-      <h1 className="text-3xl text-orange-700 text-center font-bold">
-        Testing
-      </h1>
+      <MainSectionContainer />
+
       {/* <CreatePost /> */}
 
       <div className="mt-4">
@@ -17,7 +16,7 @@ function App() {
         <Post />
         <Post /> */}
       </div>
-    </>
+    </div>
   );
 }
 

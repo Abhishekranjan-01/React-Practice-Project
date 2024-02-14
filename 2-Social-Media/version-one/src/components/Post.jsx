@@ -1,7 +1,7 @@
 import { MdDelete } from "react-icons/md";
 const Post = () => {
   return (
-    <section className="flex flex-col gap-2 p-2 border border-gray-300 rounded-md w-fit relative m-2 ">
+    <section className="flex flex-col gap-2 p-2 border border-gray-300 rounded-md w-fit relative m-2 h-fit">
       <div className="absolute w-full ">
         <span className="absolute right-0 -top-4 text-red-700 text-2xl cursor-pointer">
           <MdDelete />
@@ -24,7 +24,7 @@ const Post = () => {
       </div>
       <div
         id="_reactions"
-        className="bg-[#D1E7DB] text-green-800 mt-2 rounded-md "
+        className="bg-[#D1E7DB] text-green-800 mt-2 rounded-md px-2"
       >
         This post has been reached by 1500 peaople.
       </div>
