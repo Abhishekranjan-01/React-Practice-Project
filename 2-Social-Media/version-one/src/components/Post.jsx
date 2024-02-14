@@ -1,9 +1,9 @@
 import { MdDelete } from "react-icons/md";
 const Post = () => {
   return (
-    <section className="flex flex-col gap-2 p-2 border border-gray-300 rounded-md w-fit relative">
+    <section className="flex flex-col gap-2 p-2 border border-gray-300 rounded-md w-fit relative m-2 ">
       <div className="absolute w-full ">
-        <span className="absolute right-0 -top-4 text-red-700 text-2xl">
+        <span className="absolute right-0 -top-4 text-red-700 text-2xl cursor-pointer">
           <MdDelete />
         </span>
       </div>
