@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="absolute top-0 w-full flex justify-between bg-[#202229] py-2 px-2 border-b border-gray-500 z-10">
+    <header className="fixed top-0 w-full flex justify-between bg-[#202229] py-2 px-2 border-b border-gray-500 z-10">
       <ul className="flex flex-row gap-4 items-center">
         <li className="text-sm text-gray-200 cursor-pointer">Home</li>
         <li className="text-sm text-gray-200 cursor-pointer">Features</li>
