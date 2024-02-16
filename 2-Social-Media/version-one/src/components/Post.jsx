@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { MdDelete } from "react-icons/md";
-import postContext from "./store/PostListStore";
+import { postContext } from "./store/PostListStore";
 import Tags from "./Tags";
 const Post = () => {
   const { postListStore, dispatchPostListStore } = useContext(postContext);

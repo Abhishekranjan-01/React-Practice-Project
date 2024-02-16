@@ -1,11 +1,11 @@
 import { useContext, useRef } from "react";
-import postContext from "./store/PostListStore";
+import { postContext } from "./store/PostListStore";
 const CreatePost = () => {
   const { dispatchPostListStore } = useContext(postContext);
   const userIdRef = useRef("");
   const titleRef = useRef("");
   const bodyRef = useRef("");
-  const numberOfReactionsRef = useRef("");
+  const numberOfReactionsRef = useRef(0);
   const hashTagsRef = useRef("");
 
   return (
