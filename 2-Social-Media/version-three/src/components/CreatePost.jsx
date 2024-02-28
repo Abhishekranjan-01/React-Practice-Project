@@ -42,17 +42,6 @@ const CreatePost = () => {
               payload: data,
             });
           });
-
-        // dispatchPostListStore({
-        //   name: "ADD_POST",
-        //   payload: {
-        //     userIdRef,
-        //     titleRef,
-        //     bodyRef,
-        //     numberOfReactionsRef,
-        //     hashTagsRef,
-        //   },
-        // });
       }}
     >
       <div className="flex flex-col gap-1">
