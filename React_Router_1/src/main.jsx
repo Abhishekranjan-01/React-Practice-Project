@@ -3,12 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
+import Home from "./components/Home/Home.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Navbar />,
     children: [{ path: "/:id", element: <Navbar /> }],
+  },
+  {
+    path: "/Home",
+    element: <Home />,
   },
 ]);
 
