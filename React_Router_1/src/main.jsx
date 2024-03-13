@@ -4,16 +4,26 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
+import About from "./components/About/About.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />,
-    children: [{ path: "/:id", element: <Navbar /> }],
+    element: <Home />,
+    // children: [{ path: "/:id", element: <Navbar /> }],
   },
   {
     path: "/Home",
     element: <Home />,
+  },
+  {
+    path: "/About",
+    element: <About />,
+  },
+  {
+    path: "/Contact",
+    element: <Contact />,
   },
 ]);
 

@@ -8,8 +8,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col w-full sm:w-11/12 mx-auto">
-      <section className="flex items-center justify-between py-10 border-t border-gray-300 mt-10">
+    <footer className="flex flex-col w-full sm:w-11/12 mx-auto mt-10">
+      <section className="flex items-center justify-between py-10 border-t border-gray-300 ">
         <section>
           <img
             className="sm:w-[180px]"
@@ -22,7 +22,6 @@ export default function Footer() {
             <li className="text-black">Resources</li>
             <li>
               <Link className="hover:border-b border-gray-500" to={"/Home"}>
-                {" "}
                 Home
               </Link>
             </li>

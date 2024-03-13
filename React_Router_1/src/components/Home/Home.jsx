@@ -4,6 +4,8 @@ import Navbar from "../Navbar/Navbar";
 function Home() {
   return (
     <>
+      <p className="opacity-0">for position</p>
+      <p className="opacity-0">for position</p>
       <Navbar />
       <main className="flex flex-col items-center gap-60">
         <section className="sm:flex sm:flex-row sm:items-center justify-between mt-20">
