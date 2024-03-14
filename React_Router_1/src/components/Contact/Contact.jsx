@@ -5,12 +5,12 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <main className="flex gap-4 justify-center sm:mt-60">
+      <main className="flex flex-col sm:flex-row gap-8 sm:gap-4 justify-center mt-20 sm:mt-60 max-sm:px-4">
         <section className="flex flex-col gap-4 text-gray-600 bg-gray-100 rounded-md px-6 py-8 font-semibold">
-          <h1 className="font-extrabold text-4xl text-center text-gray-800">
+          <h1 className="font-extrabold text-3xl sm:text-4xl text-center text-gray-800">
             Get In Touch :
           </h1>
-          <h2 className="text-center text-xl font-semibold">
+          <h2 className="text-center text-lg sm:text-xl font-semibold">
             Fill in the form to start a conversation
           </h2>
           <div className="flex justify-center w-fit gap-4">
@@ -82,26 +82,26 @@ export default function Contact() {
           </div>
         </section>
         <form
-          className="flex flex-col gap-4 text-lg font-semibold sm:w-1/4 self-center"
+          className="flex flex-col gap-4 text-lg font-semibold w-full sm:w-1/4 self-center"
           action=""
         >
           <input
             type="text"
             placeholder="Full Name"
-            className="px-2 py-3 border border-gray-400 text-base rounded-md"
+            className="px-2 py-2 sm:py-3 border border-gray-400 text-base rounded-md"
           />
           <input
             type="text"
             placeholder="Email"
-            className="px-2 py-3 border border-gray-400 text-base rounded-md"
+            className="px-2 py-2 sm:py-3 border border-gray-400 text-base rounded-md"
           />
           <input
             type="text"
             placeholder="Telephone Number"
-            className="px-2 py-3 border border-gray-400 text-base rounded-md"
+            className="px-2 py-2 sm:py-3 border border-gray-400 text-base rounded-md"
           />
           <button
-            className="bg-orange-700 px-4 py-2 font-semibold rounded-md text-gray-200 w-fit"
+            className="bg-orange-700 px-4 py-1 sm:py-2 font-semibold rounded-md text-gray-200 w-fit"
             type="submit"
           >
             Submit
