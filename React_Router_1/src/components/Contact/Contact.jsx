@@ -88,7 +88,7 @@ export default function Contact() {
           <input
             type="text"
             placeholder="Full Name"
-            className="px-2 py-3  border border-gray-400 text-base rounded-md"
+            className="px-2 py-3 border border-gray-400 text-base rounded-md"
           />
           <input
             type="text"

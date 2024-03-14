@@ -7,18 +7,20 @@ function Home() {
       <p className="opacity-0">for position</p>
       <p className="opacity-0">for position</p>
       <Navbar />
-      <main className="flex flex-col items-center gap-60">
-        <section className="sm:flex sm:flex-row sm:items-center justify-between mt-20">
+      <main className="flex flex-col items-center gap-40 sm:gap-60">
+        <section className="flex flex-col sm:flex-row items-center justify-between mt-20">
           <img
-            className="sm:w-2/5"
+            className="w-3/4 sm:w-2/5"
             src="https://i.ibb.co/5BCcDYB/Remote2.png"
             alt="Hero_Home_Img_1"
           />
 
-          <div className="w-fit flex flex-col gap-2">
-            <h1 className="font-bold text-5xl">Download Now</h1>
-            <h2 className="font-bold text-3xl text-end">Lorem Ipsum</h2>
-            <span className="w-fit self-end px-6 py-2 rounded-md gap-2 bg-[#c2410C] flex justify-center">
+          <div className="w-fit flex max-sm:items-center flex-col gap-4 sm:gap-2">
+            <h1 className="font-bold text-3xl sm:text-5xl">Download Now</h1>
+            <h2 className="font-bold text-lg sm:text-3xl text-center sm:text-end">
+              Lorem Ipsum
+            </h2>
+            <span className="w-fit self-end px-6 py-2 rounded-md gap-2 bg-[#c2410C] flex justify-center max-sm:mx-auto">
               <svg
                 fill="white"
                 width="24"
@@ -37,13 +39,13 @@ function Home() {
         </section>
 
         <section className="w-full flex justify-center">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center max-sm:gap-4">
             <img
-              className="sm:w-3/5"
+              className="w-4/5 sm:w-3/5"
               src="https://i.ibb.co/2M7rtLk/Remote1.png"
               alt="Hero_Home_Img_1"
             />
-            <h2 className="font-semibold sm:text-5xl text-center">
+            <h2 className="font-semibold text-2xl sm:text-5xl text-center">
               Lorem ipsum Yojo
             </h2>
           </div>
